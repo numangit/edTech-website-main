@@ -12,12 +12,15 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- custom CSS  -->
     <link rel="stylesheet" href="style.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <!-- navbar starts here -->
-
         <nav class="navbar navbar-expand-lg my-4">
             <div class="container">
                 <a class="navbar-brand fw-bold fs-3" href="#">E-Course</a>
@@ -63,7 +66,7 @@
             <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
                 <div class="carousel-inner bg-dark">
                     <div class="carousel-item active">
-                        <img src="./images/cover/cover-1.png" class="d-block w-100 opacity-50" alt="...">
+                        <img src="./images/cover/cover-2.jpg" class="d-block w-100 opacity-50" alt="...">
                         <div class="">
                             <div class="carousel-caption">
                                 <h1 class="display-2 fw-semibold ">Get Started Digital
@@ -71,21 +74,9 @@
                                 <p class="my-4">It is a long established fact that a reader will be distracted by the
                                     readable
                                     content of a page when looking at its layout.</p>
-                                <button type="button" class="btn btn-primary btn-lg rounded-1 fw-semibold">Get
+                                <button type="button" class="btn btn-info text-white btn-lg rounded-1 fw-semibold">Get
                                     Started</button>
                             </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/cover/cover-2.jpg" class="d-block w-100 opacity-50" alt="...">
-                        <div class="carousel-caption">
-                            <h1 class="display-2 fw-semibold">Get Started Digital
-                                Learning</h1>
-                            <p class="my-4">It is a long established fact that a reader will be distracted by the
-                                readable
-                                content of a page when looking at its layout.</p>
-                            <button type="button" class="btn btn-primary btn-lg rounded-1 fw-semibold">Get
-                                Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -96,7 +87,19 @@
                             <p class="my-4">It is a long established fact that a reader will be distracted by the
                                 readable
                                 content of a page when looking at its layout.</p>
-                            <button type="button" class="btn btn-primary btn-lg rounded-1 fw-semibold">Get
+                            <button type="button" class="btn btn-info text-white btn-lg rounded-1 fw-semibold">Get
+                                Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cover/cover-1.png" class="d-block w-100 opacity-50" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="display-2 fw-semibold">Get Started Digital
+                                Learning</h1>
+                            <p class="my-4">It is a long established fact that a reader will be distracted by the
+                                readable
+                                content of a page when looking at its layout.</p>
+                            <button type="button" class="btn btn-info text-white btn-lg rounded-1 fw-semibold">Get
                                 Started</button>
                         </div>
                     </div>
@@ -113,17 +116,115 @@
                 </button>
             </div>
         </section>
-
     </header>
-
     <main>
+        <!-- Courses starts here  -->
+        <section class="container text-center my-3 my-md-5 px-4 px-lg-0">
+            <h2 class="fw-bold">Discover Our Popular Courses</h2>
+            <p class="text-muted pt-2 pb-4">Looking to add new skills? Is there a hobby you've wanted to try?<br>
+                We're <strong>E-Course</strong>, a leading destination for learning and teaching online.</p>
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-3">
+                <!-- single course  -->
+                <div class="col">
+                    <div class="card flex-sm-row">
+                        <img src="./images/course/course-1.png" alt="">
+
+                        <div class="card-body text-start align-items-center pt-lg-5">
+                            <h5 class="card-title text-secondary fw-bold">Fundamental Of UI/UX Design
+                            </h5>
+                            <p class="card-text text-muted fw-light">
+                                We will be cover here about the Fundamental Of UI/UX Design.
+                            </p>
+                            <h6 class="text-info fw-bold">Price : $25</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single course  -->
+                <div class="col">
+                    <div class="card flex-sm-row">
+                        <img src="./images/course/course-2.png" alt="">
+
+                        <div class="card-body text-start align-items-center pt-lg-5">
+                            <h5 class="card-title text-secondary fw-bold">Javascript Basic to advanced</h5>
+                            <p class="card-text text-muted fw-light">
+                                We will be cover here about the Javascript Basic to advanced.
+                            </p>
+                            <h6 class="text-info fw-bold">Price : $25</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single course  -->
+                <div class="col">
+                    <div class="card flex-sm-row">
+                        <img src="./images/course/course-3.png" alt="">
+
+                        <div class="card-body text-start align-items-center pt-lg-5">
+                            <h5 class="card-title text-secondary fw-bold">Fullstack Web Development</h5>
+                            <p class="card-text text-muted fw-light">
+                                We will be cover here about the Fullstack Web Development.
+                            </p>
+                            <h6 class="text-info fw-bold">Price : $25</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single course hidden for tab and mobile -->
+                <div class="col d-none d-lg-inline-flex">
+                    <div class="card flex-sm-row">
+                        <img src="./images/course/course-4.png" alt="">
+
+                        <div class="card-body text-start align-items-center pt-lg-5">
+                            <h5 class="card-title text-secondary fw-bold">Digital Marketing</h5>
+                            <p class="card-text text-muted fw-light">
+                                We will be cover here about the Digital Marketing.
+                            </p>
+                            <h6 class="text-info fw-bold">Price : $25</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single course hidden for tab and mobile -->
+                <div class="col d-none d-lg-inline-flex">
+                    <div class="card flex-sm-row">
+                        <img src="./images/course/course-5.png" alt="">
+
+                        <div class="card-body text-start align-items-center pt-lg-5">
+                            <h5 class="card-title text-secondary fw-bold">Photography Basic Rules</h5>
+                            <p class="card-text text-muted fw-light">
+                                We will be cover here about the Photography Basic Rules.
+                            </p>
+                            <h6 class="text-info fw-bold">Price : $25</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single course hidden for tab and mobile -->
+                <div class="col d-none d-lg-inline-flex">
+                    <div class="card flex-sm-row">
+                        <img src="./images/course/course-6.png" alt="">
+
+                        <div class="card-body text-start align-items-center pt-lg-5">
+                            <h5 class="card-title text-secondary fw-bold">Motion Graphics</h5>
+                            <p class="card-text text-muted fw-light">
+                                We will be cover here about the Motion Graphics.
+                            </p>
+                            <h6 class="text-info fw-bold">Price : $25</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-info text-white mt-3 mt-md-5 d-none d-lg-inline-flex">See More Courses</button>
+            <button class="btn btn-info text-white mt-3 mt-md-5 d-lg-none ">View All</button>
+        </section>
         <!-- Registration starts here  -->
         <section class="container text-center pt-2 p-lg-5 px-4 px-lg-3">
             <div class="row bg-info text-white p-3 p-lg-3 rounded ">
                 <div class="col-lg-6 text-lg-start px-0">
-                    <h2>Ready to join?</h2>
+                    <h2 class="fw-semibold">Ready to join?</h2>
                     <p>The courses are designed to start you on a path towards your future career, no matter how little
-                        experience or technical knowledge you currently have.Join us to this journey. </p>
+                        experience or technical knowledge you currently have. Join us to this today. </p>
                 </div>
 
                 <!-- Button trigger modal -->
@@ -169,17 +270,14 @@
 
         <!-- Frequently Asked Questions starts here -->
         <section class="container text-center my-5">
-            <h2>Frequently Asked Questions</h2>
-            <p class="w-75 mx-auto text-secondary my-3">It's common for our visitors to be curious and have questions
-                pop up in their
-                mind. So here
+            <h2 class="fw-semibold">Frequently Asked Questions</h2>
+            <p class="w-75 mx-auto text-secondary my-3 mb-lg-5">Are you curious like everyone else? <br> Here
                 are some
-                frequently
-                asked questions by our course subscribers.</p>
+                FAQs by our course subscribers.</p>
             <div class="accordion w-75 mx-auto my-4" id="accordionExample">
                 <!-- question 1  -->
-                <div class="shadow-sm accordion-item text-start rounded-3 border-5 my-3">
-                    <h2 class="rounded border-5 border-secondary" id="headingOne">
+                <div class="accordion-item shadow-sm text-start rounded-3 border-5 my-3">
+                    <h2 class="rounded border-5 border-secondary text-secondary" id="headingOne">
                         <button class="rounded accordion-button collapsed fw-semibold display-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                             aria-controls="collapseOne">
@@ -198,8 +296,8 @@
                     </div>
                 </div>
                 <!-- question 2 -->
-                <div class="shadow-sm accordion-item text-start rounded-3 border-5 my-3">
-                    <h2 class="rounded border-5 border-secondary" id="headingTwo">
+                <div class="accordion-item shadow-sm text-start rounded-3 border-5 my-3">
+                    <h2 class="rounded border-5 border-secondary text-secondary" id="headingTwo">
                         <button class="rounded accordion-button collapsed fw-semibold display-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                             aria-controls="collapseTwo">
@@ -216,8 +314,8 @@
                     </div>
                 </div>
                 <!-- question 3 -->
-                <div class="shadow-sm accordion-item text-start rounded-3 border-5 my-3">
-                    <h2 class="rounded border-5 border-secondary" id="headingThree">
+                <div class="accordion-item shadow-sm text-start rounded-3 border-5 my-3">
+                    <h2 class="rounded border-5 border-secondary text-secondary" id="headingThree">
                         <button class="rounded accordion-button collapsed fw-semibold display-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                             aria-controls="collapseThree">
@@ -237,8 +335,8 @@
                     </div>
                 </div>
                 <!-- question 4  -->
-                <div class="shadow-sm accordion-item text-start rounded-3 border-5 my-3">
-                    <h2 class="rounded border-5 border-secondary" id="headingfour">
+                <div class="accordion-item shadow-sm text-start rounded-3 border-5 mt-3 mb-5">
+                    <h2 class="rounded border-5 border-secondary text-secondary" id="headingfour">
                         <button class="rounded accordion-button collapsed fw-semibold display-5" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
                             aria-controls="collapsefour">
@@ -261,7 +359,7 @@
 
         <!-- Trusted companies starts here -->
         <section class="container d-none d-lg-block text-center d-block justify-content-center my-5">
-            <h2>Trusted by over 800+ companies</h2>
+            <h2 class="fw-semibold">Trusted by over 800+ companies</h2>
             <div class="company-img">
                 <img class="mx-3 my-4" src="./images/company/company-1.png" alt="">
                 <img class="mx-3 my-4" src="./images/company/company-2.png" alt="">
